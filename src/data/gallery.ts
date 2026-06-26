@@ -20,7 +20,7 @@ export type GalleryItem = {
 export const galleryItems: GalleryItem[] = [
   {
     id: 'pink-profile',
-    title: '粉色专属档案板',
+    title: 'pink',
     caption: '喜点雷点和专属档案都贴在一起',
     src: pinkProfileBoard,
     sourcePath: '/src/assets/references/pink-profile-board.jpg',
@@ -30,7 +30,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'deer',
-    title: '奶油小鹿档案板',
+    title: 'brown',
     caption: '小鹿、蝴蝶结和奶油纸片',
     src: deerBoard,
     sourcePath: '/src/assets/references/deer-board.jpg',
@@ -40,7 +40,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'mint',
-    title: '薄荷风格板卡',
+    title: 'mint',
     caption: '薄荷色、格纹和软边框',
     src: mintStyle,
     sourcePath: '/src/assets/references/mint-style.jpg',
@@ -50,7 +50,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'blue',
-    title: '浅蓝风格板卡',
+    title: 'blue',
     caption: '蓝色手账边框和贴纸',
     src: blueStyle,
     sourcePath: '/src/assets/references/blue-style.jpg',
@@ -60,8 +60,8 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'pudding-deposit',
-    title: '布丁黄预存板卡',
-    caption: '店内预存板卡，不作为个人重点信息',
+    title: 'yellow',
+    caption: '店内预存板卡',
     src: puddingDepositBoard,
     sourcePath: '/src/assets/references/pudding-deposit-board.jpg',
     kind: 'deposit',
@@ -71,8 +71,8 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'strawberry-deposit',
-    title: '草莓粉预存板卡',
-    caption: '店内预存板卡，不作为个人重点信息',
+    title: 'strawberry',
+    caption: '店内预存板卡',
     src: strawberryDepositBoard,
     sourcePath: '/src/assets/references/strawberry-deposit-board.jpg',
     kind: 'deposit',
