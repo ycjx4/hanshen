@@ -8,9 +8,9 @@ export const depositCards = ['520r', '666r'];
 
 export const profileItems = [
   { label: '昵称', value: '海参' },
-  { label: '年龄', value: '18' },
+  { label: '年龄', value: '24' },
   { label: '性别', value: '女' },
-  { label: '属性', value: '不卑男女' },
+  { label: '属性', value: '不卡男女' },
   { label: '身份', value: '追忆Club 顾客' },
   { label: '关键词', value: '可爱 / 小鹿 / 草莓 / 贴纸 / 手账' }
 ];
