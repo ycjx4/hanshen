@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #765847;
+  background: #fff8ec;
+  font-family: Nunito, ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.46) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.46) 1px, transparent 1px),
+    radial-gradient(circle at 15% 18%, rgba(255, 151, 181, 0.2), transparent 25%),
+    radial-gradient(circle at 82% 12%, rgba(188, 232, 221, 0.24), transparent 24%),
+    radial-gradient(circle at 78% 76%, rgba(242, 206, 133, 0.22), transparent 28%),
+    linear-gradient(135deg, #fff8ec 0%, #ffeef4 34%, #f5fffb 68%, #fff6df 100%);
+  background-size: 28px 28px, 28px 28px, auto, auto, auto, auto;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
+
+img {
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
