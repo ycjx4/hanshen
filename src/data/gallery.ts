@@ -21,7 +21,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: 'pink-profile',
     title: 'pink',
-    caption: '喜点雷点和专属档案都贴在一起',
+    caption: '喜点和雷点',
     src: pinkProfileBoard,
     sourcePath: '/src/assets/references/pink-profile-board.jpg',
     kind: 'profile',
@@ -31,7 +31,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: 'deer',
     title: 'brown',
-    caption: '小鹿、蝴蝶结和奶油纸片',
+    caption: '小鹿',
     src: deerBoard,
     sourcePath: '/src/assets/references/deer-board.jpg',
     kind: 'profile',
@@ -41,7 +41,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: 'mint',
     title: 'mint',
-    caption: '薄荷色、格纹和软边框',
+    caption: '薄荷',
     src: mintStyle,
     sourcePath: '/src/assets/references/mint-style.jpg',
     kind: 'profile',
@@ -51,7 +51,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: 'blue',
     title: 'blue',
-    caption: '蓝色手账边框和贴纸',
+    caption: '宅',
     src: blueStyle,
     sourcePath: '/src/assets/references/blue-style.jpg',
     kind: 'profile',
